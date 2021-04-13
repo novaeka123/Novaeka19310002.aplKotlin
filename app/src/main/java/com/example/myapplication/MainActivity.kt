@@ -12,10 +12,10 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
 
-    fun submit_btn(view: View) {}
+    fun submit_btn(view: View) {
     val namaEditText = findViewById<EditText>(R.id.nama_edit_text)
     val nama = namaEditText.text.toString()
 
     val toast = Toast.makeText(applicationContext, nama, Toast.LENGTH_SHORT)
-    toast.show()
+    toast.show()}
 }
